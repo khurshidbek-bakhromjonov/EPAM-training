@@ -10,6 +10,7 @@
         <module name="dao" />
         <module name="row-mapper" />
         <module name="set-mapper" />
+        <module name="service" />
       </profile>
     </annotationProcessing>
   </component>
