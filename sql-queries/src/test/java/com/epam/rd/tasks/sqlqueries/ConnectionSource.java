@@ -30,6 +30,7 @@ public class ConnectionSource {
     }
 
     private ConnectionSource() {
+
         try {
             DriverManager.registerDriver(new org.hsqldb.jdbc.JDBCDriver());
 
@@ -44,12 +45,15 @@ public class ConnectionSource {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+
     }
 
     private static String getSql(final String resourceName) {
         return new BufferedReader(
-                new InputStreamReader(Objects.requireNonNull(ConnectionSource.class.getClassLoader().getResourceAsStream(resourceName)))
-        ).lines()
+                new InputStreamReader(
+                        Objects.requireNonNull(
+                                ConnectionSource.class.getClassLoader().getResourceAsStream(resourceName))))
+                .lines()
                 .collect(Collectors.joining("\n"));
     }
 }

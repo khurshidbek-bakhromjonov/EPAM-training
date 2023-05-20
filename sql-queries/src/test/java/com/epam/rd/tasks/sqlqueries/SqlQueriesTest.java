@@ -346,4 +346,5 @@ public class SqlQueriesTest {
         }
         return lines;
     }
+
 }

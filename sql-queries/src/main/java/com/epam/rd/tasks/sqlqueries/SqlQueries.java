@@ -27,7 +27,8 @@ public class SqlQueries {
     //Select all employees and corresponding department name if there is one.
     //Name column containing name of the department "depname".
     //language=HSQLDB
-    protected String select06 = "SELECT e.*, d.NAME as DEPNAME FROM DEPARTMENT d RIGHT JOIN EMPLOYEE e ON d.ID = e.DEPARTMENT";
+    protected String select06 = "SELECT e.*, d.NAME as DEPNAME" +
+            " FROM DEPARTMENT d RIGHT JOIN EMPLOYEE e ON d.ID = e.DEPARTMENT";
 
     //Select total salary pf all employees. Name it "total".
     //language=HSQLDB
@@ -37,8 +38,9 @@ public class SqlQueries {
     //Name column containing name of the department "depname".
     //Name column containing employee amount "staff_size".
     //language=HSQLDB
-    protected String select08 = "SELECT d.NAME as DEPNAME, COUNT(*) AS STAFF_SIZE " +
-            "FROM DEPARTMENT d INNER JOIN EMPLOYEE e ON d.ID = e.DEPARTMENT GROUP BY d.NAME";
+    protected String select08 = "SELECT d.NAME as DEPNAME, COUNT(*) AS STAFF_SIZE" +
+            " FROM DEPARTMENT d INNER JOIN EMPLOYEE e ON d.ID = e.DEPARTMENT GROUP BY d.NAME";
+    //should use right join instead of inner join if null results are needed
 
     //Select all departments and values of total and average salary per department
     //Name column containing name of the department "depname".
