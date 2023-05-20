@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/sql-queries/pom.xml" />
         <option value="$PROJECT_DIR$/row-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/set-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/dao/pom.xml" />
       </list>
     </option>
   </component>
