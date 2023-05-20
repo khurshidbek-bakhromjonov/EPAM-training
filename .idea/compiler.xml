@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="row-mapper" />
         <module name="sql-queries" />
+        <module name="set-mapper" />
       </profile>
     </annotationProcessing>
   </component>
