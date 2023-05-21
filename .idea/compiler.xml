@@ -8,14 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="sql-queries" />
         <module name="dao" />
-        <module name="servlets-expression-calculator" />
         <module name="row-mapper" />
         <module name="set-mapper" />
         <module name="service" />
+        <module name="servlets-expression-calculator (2)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="expression-calculator" target="11" />
+      <module name="servlets-expression-calculator" target="11" />
+      <module name="stateful-expression-calculator" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
