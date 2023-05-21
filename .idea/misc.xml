@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/set-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/dao/pom.xml" />
         <option value="$PROJECT_DIR$/service/pom.xml" />
+        <option value="$PROJECT_DIR$/expression-calculator/pom.xml" />
       </list>
     </option>
   </component>
