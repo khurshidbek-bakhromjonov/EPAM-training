@@ -13,6 +13,7 @@
         <module name="set-mapper" />
         <module name="service" />
         <module name="jsp-currencies" />
+        <module name="chess-puzzles" />
         <module name="servlets-expression-calculator (2)" />
       </profile>
     </annotationProcessing>

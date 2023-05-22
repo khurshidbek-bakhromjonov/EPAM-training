@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/expression-calculator/pom.xml" />
         <option value="$PROJECT_DIR$/stateful-expression-calculator/pom.xml" />
         <option value="$PROJECT_DIR$/jsp-currencies/pom.xml" />
+        <option value="$PROJECT_DIR$/chess-puzzles/pom.xml" />
       </list>
     </option>
   </component>
