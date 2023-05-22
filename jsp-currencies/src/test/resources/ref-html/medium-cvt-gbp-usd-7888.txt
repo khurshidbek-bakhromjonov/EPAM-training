@@ -1,1 +1,2 @@
-78.88 GBP = 90.08342 EUR
+Amount GBP = 78.88
+EUR result value = 90.08342

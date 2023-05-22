@@ -1,1 +1,2 @@
-55.5 EUR = 64.31895 USD
+Amount EUR = 55.5
+USD result value = 64.31895

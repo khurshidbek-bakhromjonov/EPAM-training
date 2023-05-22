@@ -1,1 +1,2 @@
-36.6 GBP = 47.58000 USD
+Amount GBP = 36.6
+USD result value = 47.58000

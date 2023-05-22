@@ -1,1 +1,2 @@
-123.123 GBP = 163.75359 USD
+Amount GBP = 123.123
+USD result value = 163.75359

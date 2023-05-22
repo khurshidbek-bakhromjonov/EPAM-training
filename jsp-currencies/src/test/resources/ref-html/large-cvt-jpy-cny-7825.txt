@@ -1,1 +1,2 @@
-7825 JPY = 469.50000 CNY
+Amount JPY = 7825
+CNY result value = 469.50000
