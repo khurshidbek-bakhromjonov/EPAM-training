@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sql-queries" />
+        <module name="servlets-expression-calculator (1)" />
         <module name="dao" />
         <module name="row-mapper" />
         <module name="set-mapper" />
         <module name="service" />
+        <module name="jsp-currencies" />
         <module name="servlets-expression-calculator (2)" />
       </profile>
     </annotationProcessing>
